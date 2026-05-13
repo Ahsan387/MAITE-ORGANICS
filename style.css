@@ -1,4 +1,108 @@
 body {
-  font-family: Arial;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f6f2;
+  color: #333;
+}
+
+.header {
+  background: #2e7d32;
+  color: white;
+  padding: 25px;
   text-align: center;
+}
+
+.tagline {
+  margin-top: 5px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.product-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.product-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-details h2 {
+  margin-top: 0;
+  color: #2e7d32;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.desc {
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.points {
+  list-style: none;
+  padding: 0;
+}
+
+.points li {
+  margin-bottom: 8px;
+}
+
+.notice {
+  background: #f1f8e9;
+  padding: 10px;
+  border-left: 4px solid #8bc34a;
+  margin: 15px 0;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  background: #25d366;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5b;
+}
+
+.future {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer {
+  background: #222;
+  color: #bbb;
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+}
+
+/* ✅ Mobile Responsive */
+@media (max-width: 768px) {
+  .product-section {
+    flex-direction: column;
+    text-align: center;
+  }
 }
