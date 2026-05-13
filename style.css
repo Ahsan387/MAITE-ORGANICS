@@ -234,3 +234,75 @@ body {
     font-size: 26px;
   }
 }
+
+/* ===== FINAL HOME PAGE CENTER FIX ===== */
+.home-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f7f6f2, #ffffff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center-logo {
+  width: 320px;
+  max-width: 85%;
+  margin-bottom: 20px;
+}
+
+.home-wrapper h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #2e7d32;
+}
+
+.home-wrapper .tagline {
+  margin: 10px 0 30px;
+  color: #555;
+  font-size: 16px;
+}
+
+/* Language buttons */
+.lang-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.home-btn {
+  padding: 14px 34px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #2e7d32;
+  background: #2e7d32;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.home-btn:hover {
+  background: #1b5e20;
+  border-color: #1b5e20;
+}
+
+.home-btn.active {
+  background: white;
+  color: #2e7d32;
+}
+
+.home-btn.active:hover {
+  background: #f1f1f1;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .center-logo {
+    width: 220px;
+  }
+
+  .home-wrapper h1 {
+    font-size: 28px;
+  }
+}
