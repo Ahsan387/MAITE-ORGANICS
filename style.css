@@ -9,6 +9,11 @@ body {
   color: #333;
 }
 
+.logo {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
 .header {
   background: #2e7d32;
   color: white;
