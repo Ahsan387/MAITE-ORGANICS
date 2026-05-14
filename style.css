@@ -302,6 +302,32 @@ body {
     width: 220px;
   }
 
+/* ===== RATINGS & REVIEWS STYLES ===== */
+.reviews-box {
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.stars {
+  font-size: 18px;
+  color: #f4b400; /* golden stars */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.stars span {
+  color: #555;
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.review {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
   .home-wrapper h1 {
     font-size: 28px;
   }
