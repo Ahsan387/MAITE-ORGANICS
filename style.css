@@ -302,4 +302,20 @@ body {
     width: 220px;
   }
 
+/* ===== WHATSAPP REVIEW BUTTON ===== */
+.review-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  border: 1px solid #2e7d32;
+  color: #2e7d32;
+  background: #f4fff6;
+}
 
+.review-btn:hover {
+  background: #2e7d32;
+  color: white;
+}
